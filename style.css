@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+:root {
+  --light: #777777;
+  --g8: 0.8rem;
+  --g16: 1.6rem;
+  --g24: 2.4rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: var(--g16);
+  background-color: #ededed;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+input,
+button {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+button {
+  cursor: pointer;
+}
+
+.login-form {
+  max-width: 30rem;
+  margin: 20vh auto;
+  padding: 3.2rem var(--g24);
+  gap: var(--g24);
+  background: white;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.form-title {
+  font-size: var(--g16);
+}
+
+.grid-center {
+  display: grid;
+  place-content: center;
+  gap: var(--g16);
+}
+
+.input-field {
+  min-width: 100%;
+  border: 1px solid #777;
+  padding: 0 var(--g8);
+  display: flex;
+  align-items: center;
+  gap: var(--g8);
+}
+
+.input-field input {
+  max-width: 95%;
+  padding: var(--g8);
+  font-size: 1.4rem;
+}
+
+.submit-btn {
+  padding: var(--g8);
+  background-color: #000;
+  color: #fff;
+}
+
+.other {
+  display: flex;
+  justify-content: space-between;
+}
+
+.other a {
+  font-size: 1.2rem;
+}
